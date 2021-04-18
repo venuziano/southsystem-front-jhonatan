@@ -1,0 +1,33 @@
+.edicao-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  margin: 0;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+}
+
+.edicao {
+  color: #000;
+  width: 30%;
+  height: 30%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.campos-edicao {
+  display: flex;
+  flex-direction: column;
+}
+
+.botao-edicao {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

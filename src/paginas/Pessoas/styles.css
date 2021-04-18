@@ -1,0 +1,107 @@
+.container {
+  padding: 30px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cadastro {
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.campos-cadastro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.inputs-cadastro {
+  border-width: 1px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 10px;
+}
+
+
+.container-botao-cadastrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.tipo-pessoa {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.radio-button-tipo-pessoa {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.lista ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.lista ul li {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.info-lista {
+  display: flex;
+  background: #ffffff;
+
+}
+
+.lista ul li strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+  background: #ffffff;
+}
+
+.lista ul li p + strong {
+  margin-top: 32px;
+}
+
+.lista ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+.lista ul li button {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  border: 0;
+  cursor: pointer;
+  background: #ffffff;
+}
